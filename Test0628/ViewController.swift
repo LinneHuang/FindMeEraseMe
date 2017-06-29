@@ -64,7 +64,8 @@ class ViewController: UIViewController {
             if let hitObject = hitList.first {
                 let node = hitObject.node
                 
-                if node.name == "ARShip" {
+                // if node.name == "ARShip" 
+                if node.name == "AROrange" {
                     counter += 1
                     node.removeFromParentNode()
                     addObject()
