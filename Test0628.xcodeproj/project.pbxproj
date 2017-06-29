@@ -14,6 +14,8 @@
 		00522B991F04B16200556428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00522B971F04B16200556428 /* LaunchScreen.storyboard */; };
 		00522BA41F04B16200556428 /* Test0628Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522BA31F04B16200556428 /* Test0628Tests.swift */; };
 		00522BAF1F04B16200556428 /* Test0628UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522BAE1F04B16200556428 /* Test0628UITests.swift */; };
+		00522BBD1F04B7E300556428 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 00522BBC1F04B7E300556428 /* art.scnassets */; };
+		00522BBF1F04B85D00556428 /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00522BBE1F04B85D00556428 /* SpaceShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		00522BAA1F04B16200556428 /* Test0628UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test0628UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00522BAE1F04B16200556428 /* Test0628UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test0628UITests.swift; sourceTree = "<group>"; };
 		00522BB01F04B16200556428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00522BBC1F04B7E300556428 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../../../Downloads/art.scnassets; sourceTree = "<group>"; };
+		00522BBE1F04B85D00556428 /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				00522B8E1F04B16200556428 /* AppDelegate.swift */,
 				00522B901F04B16200556428 /* ViewController.swift */,
+				00522BBE1F04B85D00556428 /* SpaceShip.swift */,
+				00522BBC1F04B7E300556428 /* art.scnassets */,
 				00522B921F04B16200556428 /* Main.storyboard */,
 				00522B951F04B16200556428 /* Assets.xcassets */,
 				00522B971F04B16200556428 /* LaunchScreen.storyboard */,
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00522B991F04B16200556428 /* LaunchScreen.storyboard in Resources */,
+				00522BBD1F04B7E300556428 /* art.scnassets in Resources */,
 				00522B961F04B16200556428 /* Assets.xcassets in Resources */,
 				00522B941F04B16200556428 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00522BBF1F04B85D00556428 /* SpaceShip.swift in Sources */,
 				00522B911F04B16200556428 /* ViewController.swift in Sources */,
 				00522B8F1F04B16200556428 /* AppDelegate.swift in Sources */,
 			);
